@@ -1,11 +1,11 @@
-const { Pool } = require("pg");
+const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: "gitpod",
-  host: "localhost",
-  database: "eventhub_db",
-  password: "",
-  port: 5432,
+	user: ({}).USER,
+	host: 'localhost',
+	database: ({}).DATABASE,
+	password: '',
+	port: 5432,
 });
 
 module.exports = pool;

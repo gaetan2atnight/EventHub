@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "username": "gitpod",
+            "database": "eventhub_db",
+            "name": "test_db_connect",
+            "password": ""
+        }
+    ]
+}

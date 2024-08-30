@@ -19,7 +19,7 @@ tasks:
 ports:
     - name: front-end
       port: 3000
-      onOpen: open-preview
+      onOpen: ignore
 
     - name: back-end
       port: 3001

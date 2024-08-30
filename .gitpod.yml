@@ -24,7 +24,6 @@ ports:
     - name: back-end
       port: 3001
       onOpen: ignore
-      visibility: public
 
     - name: database
       port: 5432
